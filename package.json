@@ -1,0 +1,43 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cross-env ENV=development webpack --config webpack.dev.js --watch ",
+    "dev": "cross-env ENV=development webpack --config webpack.dev.js",
+    "build": "cross-env ENV=production webpack --config webpack.prod.js",
+    "serve": "cross-env ENV=production webpack server --config webpack.dev.js"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "node",
+    "php",
+    "python",
+    "dart",
+    "mobile"
+  ],
+  "author": "Abel Olguin",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "clean-css": "^5.2.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^3.6.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "html-minimizer-webpack-plugin": "^4.3.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^7.4.3",
+    "tailwindcss": "^3.3.2",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0"
+  }
+}

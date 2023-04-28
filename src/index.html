@@ -25,19 +25,31 @@
 <main class="font-jost hyphens-manual">
     <!-- Page -------------------------------------------------------------------------------------------------------->
     <section
-            class="max-w-5xl p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white"
+            class="max-w-5xl p-3 lg:mx-auto lg:my-auto dark:bg-gray-900 bg-gray-100 border-4
+            border-gray-700 dark:border-gray-300 print:border-0 page
+            print:max-w-letter print:max-h-letter
+            print:mx-0 print:my-o lg:h-letter
+            md:max-w-letter md:h-letter
+            xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white
+            m-5 print:text-black relative
+            "
     >
+        <div class="absolute top-3 right-3">
+            <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="yellow" class="sun hidden dark:block" viewBox="0 0 16 16"> <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/> </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="dark-grey" class="moon block dark:hidden" viewBox="0 0 16 16"> <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/> </svg>            </button>
+        </div>
         <!-- Name ---------------------------------------------------------------------------------------------------->
         <header
                 class="inline-flex items-baseline justify-between w-full mb-2 align-top border-b-4 border-gray-300 pb-2"
         >
             <section class="block">
-                <h1 class="mb-0 text-5xl font-bold text-gray-700">
+                <h1 class="mb-0 text-5xl font-bold text-gray-700 dark:text-gray-200 print:text-gray-700">
                     Abel Olguin Chavez
                 </h1>
                 <!--Job Title--------------------------------------------------------------------------------------------------------->
                 <h2
-                        class="m-0 text-2xl font-semibold text-gray-700 leading-snugish"
+                        class="m-0 text-2xl font-semibold text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish"
                 >
                     Full Stack Web Development / Mobile developer
                 </h2>
@@ -52,20 +64,20 @@
 
         </header>
 
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid lg:grid-cols-2 grid-cols-1  gap-4">
             <div>
                 <section class="pb-2 mb-0 mt-4 first:mt-0">
                     <!-- To keep in the same column -------------------------------------------------------------------------->
                     <section class="break-inside-avoid">
                         <section class="pb-4 mb-2 border-b-4 border-gray-300 break-inside-avoid">
                             <ul class="list-inside pr-7">
-                                <li class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700" >
+                                <li class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700 dark:text-gray-200 print:text-gray-700" >
                                     <a class="group" href="https://github.com/abel-olguin">
-                      <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish" >
+                      <span class="mr-5 text-lg font-semibold text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish" >
                         Github:
                       </span>
                                         Abel Olguin <span
-                                                class="inline-block font-normal transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 print:"
+                                                class="inline-block font-normal transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 dark:text-gray-200 print:text-gray-700 print:"
                                         >
                         ↗
                       </span>
@@ -73,28 +85,28 @@
                                 </li>
 
                                 <li
-                                        class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700"
+                                        class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700 dark:text-gray-200 print:text-gray-700"
                                 >
                                     <a class="group" href="mailto:osmer19@hotmail.com">
                       <span
-                              class="mr-8 text-lg font-semibold text-gray-700 leading-snugish"
+                              class="mr-8 text-lg font-semibold text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish"
                       >
                         Email:
                       </span>
                                         osmer19@hotmail.com
                                         <span
-                                                class="inline-block font-normal transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700"
+                                                class="inline-block font-normal transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 dark:text-gray-200 print:text-gray-700"
                                         >
                         ↗
                       </span>
                                     </a>
                                 </li>
                                 <li
-                                        class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700"
+                                        class="mt-1 leading-normal transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700 dark:text-gray-200 print:text-gray-700"
                                 >
                                     <a href="tel:+525580209625">
                       <span
-                              class="mr-5 text-lg font-semibold text-gray-700 leading-snugish"
+                              class="mr-5 text-lg font-semibold text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish"
                       >
                         Teléfono:
                       </span>
@@ -110,13 +122,13 @@
                     <!-- To keep in the same column -->
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 text-xl font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             RESUMEN
                         </h2>
 
                         <section class="mb-2 break-inside-avoid">
-                            <p class="mt-2 leading-normal text-gray-700 text-md">
+                            <p class="mt-2 leading-normal text-gray-700 dark:text-gray-200 print:text-gray-700 text-md">
                                 Desarrollador fullstack / mobile con 9 años de experiencia,
                                 autodidacta, emprendedor y con la capacidad de ser una fuerza positiva
                                 en cualquier proyecto.
@@ -130,7 +142,7 @@
                     <!-- To keep in the same column -->
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 text-lg font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             EDUCACIÓN
                         </h2>
@@ -138,7 +150,7 @@
                         <section class="mt-2  break-inside-avoid pb-2">
                             <header>
                                 <h3
-                                        class=" text-lg font-semibold text-gray-700 leading-snugish"
+                                        class=" text-lg font-semibold text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish"
                                 >
                                     Universidad tres culturas
                                 </h3>
@@ -156,7 +168,7 @@
                     <!-- To keep in the same column -->
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             Lenguajes de programación
                         </h2>
@@ -211,7 +223,7 @@
                     </section>
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             Frameworks
                         </h2>
@@ -267,7 +279,7 @@
                     </section>
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             Bases de datos
                         </h2>
@@ -310,7 +322,7 @@
 
                     <section class="break-inside-avoid">
                         <h2
-                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                                class="mb-2 mt-1 text-lg font-bold tracking-widest text-gray-700 dark:text-gray-200 print:text-gray-700 print:font-normal"
                         >
                             Tecnologías/Metodologías
                         </h2>
@@ -375,7 +387,7 @@
 
             <div>
                 <h2
-                        class="mb-2 text-xl font-bold tracking-widest text-gray-800 print:font-normal"
+                        class="mb-2 text-xl font-bold tracking-widest text-gray-800 dark:text-gray-400 print:text-gray-800 print:font-normal"
                 >
                     EXPERIENCIA
                 </h2>
@@ -383,7 +395,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador web fullstack | Mobile
                         </h3>
@@ -391,7 +403,7 @@
                             Marzo 2015 &ndash; Actualidad | <b>Freelance</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"
@@ -406,7 +418,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador web fullstack
                         </h3>
@@ -414,7 +426,7 @@
                             Junio 2022 &ndash; Enero 2023 | <b>Ultrasist</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"
@@ -430,7 +442,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador web fullstack | Mobile
                         </h3>
@@ -438,7 +450,7 @@
                             Octubre 2019 &ndash; Junio 2022 | <b>MVS Radio</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"
@@ -455,7 +467,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador backend
                         </h3>
@@ -463,7 +475,7 @@
                             Febero 2019 &ndash; Diciembre 2021 | <b>Ubeenet</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"
@@ -480,7 +492,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador web fullstack
                         </h3>
@@ -488,7 +500,7 @@
                             Julio 2017 &ndash; Febrero 2018 | <b>Ultrasist</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"
@@ -504,7 +516,7 @@
                 <section class="mb-2 pb-2 break-inside-avoid border-b-2 border-gray-300">
                     <header>
                         <h3
-                                class="text-md font-semibold text-gray-800 leading-snugish "
+                                class="text-md font-semibold text-gray-800 dark:text-gray-400 print:text-gray-800 leading-snugish "
                         >
                             Desarrollador web fullstack | Mobile
                         </h3>
@@ -512,7 +524,7 @@
                             Julio 2014 &ndash; Julio 2017 | <b>Sparklabs</b>
                         </p>
                     </header>
-                    <ul class="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+                    <ul class="mt-2 font-normal text-md  text-gray-700 dark:text-gray-200 print:text-gray-700 leading-snugish pl-3">
                         <li>
                             <span
                                     class="transform -translate-y-px select-none text-gray-500"

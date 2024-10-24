@@ -10,7 +10,6 @@ const profilesData = profiles.map(item => ({
     url: item.url,
     icon: ICONS[item.network] ?? ICONS['email']
 }))
-console.log(skills)
 ---
 
 <html lang="es">
@@ -33,7 +32,7 @@ console.log(skills)
 <slot/>
 
 <footer class="mt-20">
-    <div class="no-print commands rounded-full bg-white/70 backdrop-blur p-2 shadow fixed z-50 left-1/2 -translate-x-1/2 bottom-5 text-sm">
+    <div class="no-print hidden md:block fixed commands rounded-full bg-white/70 backdrop-blur p-2 shadow z-50 left-1/2 -translate-x-1/2 bottom-5 text-sm">
         Pulsa
         <kbd class="key">Cmd</kbd>
         +

@@ -1,0 +1,23 @@
+---
+import Section from "@/components/Section.astro";
+import {skills} from "@cv"
+---
+<Section title="Skills">
+    <ul class="flex gap-1 skills items-center mt-2"> {skills.map(skill =>
+            <li
+                    class:list={[{
+                        'border-l-green-600 ': skill.level.toLowerCase() === 'master',
+                        'border-l-orange-300 ': skill.level.toLowerCase() === 'medium',
+                        'border-l-red-600': skill.level.toLowerCase() === 'low'
+                    }]}
+                    class="item text-xs shadow-sm bg-neutral-600 text-neutral-200 border-l-2 px-1 print:border-l-0 print:border-b-2 print:shadow-none">
+                <b
+                        class="text-inherit">{skill.name}</b>
+            </li>)}
+    </ul>
+</Section>
+<style>
+    .skills {
+        flex-flow: row wrap;
+    }
+</style>

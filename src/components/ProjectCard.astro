@@ -1,0 +1,24 @@
+---
+const {project} = Astro.props
+---
+
+<section class="border rounded-lg p-4 flex flex-col justify-between gap-1 print:border-0 print:p-0">
+    <header>
+        <h4 class="title3"><a href={project.url} target="_blank"
+                              rel="noopener noreferrer">{project.name}</a></h4>
+    </header>
+    <p class="text-sm">{project.description}</p>
+
+    <footer>
+        <ul class="flex gap-1 technologies items-center mt-2"> {project.highlights.map((highlight: string) =>
+                <li
+                        class="tag"><b class="text-inherit">{highlight}</b>
+                </li>)}
+        </ul>
+    </footer>
+</section>
+<style>
+    .technologies {
+        flex-flow: row wrap;
+    }
+</style>

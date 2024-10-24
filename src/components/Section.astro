@@ -1,0 +1,7 @@
+---
+const {title, classes} = Astro.props
+---
+<section class:list={[classes]} class="flex flex-col gap-2">
+    <h2 class="title">{title}</h2>
+    <slot/>
+</section>

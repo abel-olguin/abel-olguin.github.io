@@ -1,0 +1,12 @@
+---
+import Section from "@/components/Section.astro";
+import {education} from "@cv"
+import EducationItem from "@/components/EducationItem.astro";
+---
+
+<Section title="Educación">
+    <div class="flex flex-col gap-5 mt-4">
+        {education.map((item) =>
+                <EducationItem item={item}/>)}
+    </div>
+</Section>

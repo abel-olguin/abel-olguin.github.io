@@ -1,0 +1,11 @@
+---
+import {ICONS} from "../utils/icons";
+const {url, icon, title} = Astro.props;
+---
+<a href={url} title={title}
+   class="block p-1 w-7 h-7 rounded-lg hover:shadow-sm hover:bg-neutral-200 border border-neutral-200 transition-all delay-150 ease-in-out"
+   target="_blank"
+   rel="noopener noreferrer"
+>
+    <Fragment set:html={ICONS[icon]}/>
+</a>

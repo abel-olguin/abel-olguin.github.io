@@ -1,0 +1,392 @@
+{
+  "basics": {
+    "name": "Abel Olguín Chávez",
+    "label": "Desarrollador WEB | Creador de contenido",
+    "image": "https://avatars.githubusercontent.com/u/8931845?v=4",
+    "email": "abel.olguinchavez@gmail.com",
+    "phone": "",
+    "url": "https://abel-olguin.github.io",
+    "summary": "+10 años de experiencia como desarrollador web full stack, líder técnico y arquitecto\nde software. Mi enfoque se centra en crear productos que superen los\nrequerimientos y en colaborar con equipos de alto desempeño. Mi mentalidad de\nmejora continua está respaldada por mi trayectoria trabajando tanto con startups\ncomo con grandes empresas tecnológicas.",
+    "location": {
+      "address": "Miguel hidalgo",
+      "postalCode": "11850",
+      "city": "Ciudad de méxico",
+      "countryCode": "MX",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "Abel Olguin",
+        "url": "https://www.linkedin.com/in/abelolguin"
+      },
+      {
+        "network": "github",
+        "username": "Abel Olguin",
+        "url": "https://github.com/abel-olguin"
+      },
+      {
+        "network": "youtube",
+        "username": "ElAbelucky",
+        "url": "https://www.youtube.com/@ElAbelucky"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Independiente",
+      "position": "Freelance",
+      "url": "",
+      "startDate": "Marzo 2015",
+      "endDate": "Actualmente",
+      "summary": "Como profesional freelance, he tenido el privilegio de colaborar con múltiples empresas, tanto grandes como pequeñas, siempre superando las expectativas de mis clientes. He aplicado mis habilidades en la selección de arquitecturas eficientes, gestión de aplicaciones, consultoría tecnológica, y desarrollo de software para proyectos diversos. He liderado equipos de desarrollo, brindado mentoría y consultoría, y gestionado la integración de diferentes módulos y tecnologías. ",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "Wordpress",
+        "Node.js",
+        "Tailwind",
+        "JavaScript",
+        "Typescript",
+        "Python",
+        "Java (android)",
+        "Dart",
+        "MySQL",
+        "Postgres",
+        "Mongo",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloudflare"
+      ]
+    },
+    {
+      "name": "B-process",
+      "position": "Desarrollador fullstack SR & Líder técnico",
+      "url": "",
+      "startDate": "Agosto 2023",
+      "endDate": "Marzo 2024",
+      "summary": "Fui responsable de la gestión de un equipo para asegurar el correcto desarrollo y cumplimiento de las metas en cada sprint. Desarrollé una aplicación gubernamental enfocada en la gestión de personas privadas de la libertad dentro de un centro de reclusión, así como otra aplicación gubernamental para la gestión de oficios y documentos legales que se turnan entre individuos a lo largo del tiempo hasta llegar a una resolución. También me encargué del mantenimiento de los módulos existentes. Entre mis logros, destaco el desarrollo y gestión de un equipo de desarrolladores con fechas de entrega ajustadas y el desarrollo de una aplicación completa en un tiempo considerablemente corto.",
+      "highlights": [
+        "Laravel",
+        "Angular",
+        "Git",
+        "Docker",
+        "MySql"
+      ]
+    },
+    {
+      "name": "Ultrasist",
+      "position": "Desarrollador fullstack SR",
+      "url": "",
+      "startDate": "Junio 2022",
+      "endDate": "Enero 2023",
+      "summary": "He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la aplicación utilizada por BANOBRAS, además de realizar mantenimiento a los módulos existentes y generar nuevos módulos para una aplicación web. Entre mis logros, he mejorado la eficiencia del equipo en el desarrollo de la aplicación, optimizado en gran medida el uso de código boilerplate, y generado módulos altamente reutilizables.",
+      "highlights": [
+        "Laravel",
+        "Angular",
+        "Git",
+        "MySql"
+      ]
+    },
+    {
+      "name": "MVS Radio",
+      "position": "Desarrollador fullstack SR | arquitecto de software",
+      "url": "",
+      "startDate": "Octubre 2019",
+      "endDate": "Junio 2022",
+      "summary": "He gestionado, creado y mejorado la arquitectura de las aplicaciones usadas por las diversas ramas de la empresa, junto con la gestión de equipo y la generación de reportes de actividades. He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la empresa, y he desarrollado aplicaciones usando PHP, JavaScript y Dart. Entre mis logros, he logrado una reducción significativa en los costos debido a una mejor arquitectura, generación de aplicaciones replicables, reducción de tiempo en la implementación de soluciones y reducción de mantenimiento a las aplicaciones existentes. También he realizado mejoras significativas en la comunicación y eficiencia del equipo, así como en la implementación de nuevas tecnologías y estándares de desarrollo.",
+      "highlights": [
+        "Wordpress",
+        "JavaScript",
+        "Dart",
+        "GCP",
+        "Docker",
+        "MySql"
+      ]
+    },
+    {
+      "name": "Ubeenet",
+      "position": "Desarrollador backend SR",
+      "url": "",
+      "startDate": "Febrero 2019",
+      "endDate": "Diciembre 2021",
+      "summary": "He seleccionado arquitecturas eficientes para diversas aplicaciones, tanto privadas como gubernamentales. He gestionado diversas API's internas y externas, así como varias nubes, y he creado aplicaciones para diversas empresas usando PHP y Node JS. Entre mis logros, se destaca la arquitectura y desarrollo de una aplicación backend que conecta diversas nubes y las concentra en una sola, y la arquitectura y desarrollo de una aplicación backend autorreplicable a nivel nacional.",
+      "highlights": [
+        "Laravel",
+        "Angular",
+        "ReactJS",
+        "Django",
+        "Oracle",
+        "AWS",
+        "VMWare",
+        "AZURE",
+        "GCP",
+        "Git",
+        "Docker",
+        "Golang",
+        "MySql",
+        "Postgres"
+      ]
+    },
+    {
+      "name": "Tecnología aplicada",
+      "position": "Desarrollador fullstack SR",
+      "url": "",
+      "startDate": "Julio 2017",
+      "endDate": "Febrero 2018",
+      "summary": "He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la aplicación web para SAGARPA, así como mantenimiento a los módulos existentes y generación de nuevos módulos de la aplicación. Entre mis logros, se destacan la mejoría significativa en el equipo de desarrollo debido a un mejor uso de las herramientas y la implementación de nuevas tecnologías y estándares de desarrollo.",
+      "highlights": [
+        "Laravel",
+        "JavaScript",
+        "SVN",
+        "AWS",
+        "MySql"
+      ]
+    },
+    {
+      "name": "Sparklabs",
+      "position": "Desarrollador fullstack MD & SR ",
+      "url": "",
+      "startDate": "Julio 2017",
+      "endDate": "Febrero 2018",
+      "summary": "He seleccionado arquitecturas eficientes para aplicaciones de diversos clientes, gestionando las aplicaciones de la agencia y brindando soporte continuo y solución de problemas críticos, asegurando que las aplicaciones se mantengan eficientes y efectivas. He coordinado la integración de diferentes módulos de software para crear soluciones holísticas y escalables.\nEntre mis logros, destaco la innovación en los procesos de desarrollo, implementación de nuevas tecnologías y estándares de desarrollo, además de la optimización de recursos que ha llevado a una significativa reducción de costos operativos. También he fomentado la colaboración entre equipos multidisciplinarios, mejorando la eficiencia del trabajo en conjunto.",
+      "highlights": [
+        "Wordpress",
+        "Laravel",
+        "Ionic",
+        "JavaScript",
+        "MySql"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Universidad tres culturas",
+      "url": "",
+      "area": "Ingeniería en sistemas computacionales",
+      "studyType": "Titulado",
+      "startDate": "Agosto 2010",
+      "endDate": "Agosto 2013",
+      "score": "8.0",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "certificates": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Wordpress",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "NodeJs",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "ReactJs",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "React Native",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Android",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Flutter",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Postgres",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Mongo",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "MySql",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Low",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "GCP",
+      "level": "Medium",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": [
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "projects": [
+    {
+      "name": "Curso Laravel 11 desde cero",
+      "startDate": "2024-05",
+      "endDate": "",
+      "description": "Serie de videos donde explico como hacer un blog usando Laravel",
+      "highlights": [
+        "Laravel",
+        "AlpineJs",
+        "Tailwind"
+      ],
+      "url": "https://www.youtube.com/playlist?list=PL8GYrmS0JFOTD5-il4O-2J8_GuucSYaQo"
+    },
+    {
+      "name": "Curso Laravel 11 + Livewire",
+      "startDate": "2024-06",
+      "endDate": "",
+      "description": "Serie de videos donde explico como integrar Livewire a un proyecto existente de Laravel",
+      "highlights": [
+        "Laravel",
+        "Livewire",
+        "Tailwind"
+      ],
+      "url": "https://www.youtube.com/playlist?list=PL8GYrmS0JFOQOLg_WaX3e-0XyldEYVlnL"
+    },
+    {
+      "name": "Curso API Rest Laravel con TDD",
+      "startDate": "2024-07",
+      "endDate": "",
+      "description": "Curso donde explico como hacer una API Rest con laravel usando Test Driven Development",
+      "highlights": [
+        "Laravel"
+      ],
+      "url": "https://www.youtube.com/playlist?list=PL8GYrmS0JFORQ8PRPuaIQ769aDWVkrnjj"
+    },
+    {
+      "name": "Curso crear un tema de Wordpress desde cero",
+      "startDate": "2024-08",
+      "endDate": "",
+      "description": "Curso donde explico algunas funcionalidades de wordpress y como se podria crear un template desde cero",
+      "highlights": [
+        "Wordpress",
+        "AlpineJs",
+        "Tailwind"
+      ],
+      "url": "https://www.youtube.com/playlist?list=PL8GYrmS0JFOTvCEtONge44ozm9PepXdnQ"
+    }
+  ]
+}

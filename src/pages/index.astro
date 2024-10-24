@@ -1,0 +1,25 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import Hero from "@/components/Hero.astro";
+import Experience from "@/components/Experience.astro";
+import Projects from "@/components/Projects.astro";
+import Education from "@/components/Education.astro";
+import Skills from "@/components/Skills.astro";
+import About from "@/components/About.astro";
+
+import {basics} from "@cv"
+const {name, label, summary} = basics
+---
+
+<MainLayout title={`Portfolio ${name} - ${label}`} description={summary}>
+    <main class="flex flex-col gap-8">
+        <Hero/>
+        <About/>
+        <Experience/>
+        <Education/>
+        <Skills/>
+        <Projects/>
+
+    </main>
+
+</MainLayout>

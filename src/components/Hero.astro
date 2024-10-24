@@ -1,0 +1,31 @@
+---
+import {basics} from "@cv"
+import SocialItem from "@/components/SocialItem.astro";
+import Section from "@/components/Section.astro";
+import {ICONS} from "../utils/icons";
+
+const {name, label, email, location, profiles} = basics
+
+const linkedin = profiles.find(x => x.network === "linkedin")
+
+const removeHttp = (str: string) => str.replace("https://www.linkedin.com/", "");
+---
+<Section title={name} classes="mt-5">
+    <p>{label}</p>
+    <div class="flex gap-2 items-center text-xs">
+        <span class="h-4 w-4" set:html={ICONS['email']}></span>
+        <span>{location.address},</span>
+        <span>{location.city},</span>
+        <span>{location.postalCode},</span>
+        <span>{location.countryCode}</span>
+    </div>
+
+    <footer class="mt-2 print flex gap-2 text-xs">
+        {email} • {removeHttp(linkedin?.url ?? '')}
+    </footer>
+    <footer class="no-print flex gap-2">
+        <SocialItem icon="email" url={`mailto:${email}`} title={`Enviar email a ${name}`}/>
+        {profiles.map((profile) =>
+                <SocialItem icon={profile.network} url={profile.url} title={profile.username}/>)}
+    </footer>
+</Section>

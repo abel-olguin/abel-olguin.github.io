@@ -1,0 +1,12 @@
+---
+import {work} from "@cv"
+import ExperienceJobItem from "@/components/ExperienceJobItem.astro";
+import Section from "@/components/Section.astro";
+---
+
+<Section title="Experiencia">
+    <div class="flex flex-col gap-5 mt-4">
+        {work.map((item) =>
+                <ExperienceJobItem item={item}/>)}
+    </div>
+</Section>

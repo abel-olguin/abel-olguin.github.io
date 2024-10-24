@@ -1,0 +1,27 @@
+---
+const {item} = Astro.props
+---
+<article class="flex flex-col gap-2">
+    <header>
+        <div class="flex justify-between items-center">
+            <h3 class="title2">{item.name}</h3>
+            <time>{item.startDate} - {item.endDate}</time>
+        </div>
+        <h4 class="text-neutral-600">{item.position}</h4>
+    </header>
+
+    <footer>
+        <p>{item.summary}</p>
+        <ul class="flex gap-1 technologies items-center mt-2"> {item.highlights.map((highlight: string) =>
+                <li
+                        class="tag"><b class="text-inherit">{highlight}</b>
+                </li>)}
+        </ul>
+    </footer>
+</article>
+
+<style>
+    .technologies {
+        flex-flow: row wrap;
+    }
+</style>

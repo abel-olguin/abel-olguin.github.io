@@ -175,7 +175,7 @@
       ]
     },
     {
-      "institution": "ICEMexico",
+      "institution": "ICEMéxico",
       "url": "",
       "area": "Certificación EC0366",
       "studyType": "Certificación",
@@ -357,7 +357,7 @@
       "name": "Curso Laravel 11 desde cero",
       "startDate": "2024-05",
       "endDate": "",
-      "description": "Serie de videos donde explico como hacer un blog usando Laravel",
+      "description": "Serie de videos donde explico cómo hacer un blog usando Laravel",
       "highlights": [
         "Laravel",
         "AlpineJs",
@@ -369,7 +369,7 @@
       "name": "Curso Laravel 11 + Livewire",
       "startDate": "2024-06",
       "endDate": "",
-      "description": "Serie de videos donde explico como integrar Livewire a un proyecto existente de Laravel",
+      "description": "Serie de videos donde explico cómo integrar Livewire a un proyecto existente de Laravel",
       "highlights": [
         "Laravel",
         "Livewire",
@@ -381,7 +381,7 @@
       "name": "Curso API Rest Laravel con TDD",
       "startDate": "2024-07",
       "endDate": "",
-      "description": "Curso donde explico como hacer una API Rest con laravel usando Test Driven Development",
+      "description": "Curso donde explico cómo hacer una API Rest con laravel usando Test Driven Development",
       "highlights": [
         "Laravel"
       ],
@@ -391,7 +391,7 @@
       "name": "Curso crear un tema de Wordpress desde cero",
       "startDate": "2024-08",
       "endDate": "",
-      "description": "Curso donde explico algunas funcionalidades de wordpress y como se podria crear un template desde cero",
+      "description": "Curso donde explico algunas funcionalidades de wordpress y cómo se podría crear un template desde cero",
       "highlights": [
         "Wordpress",
         "AlpineJs",

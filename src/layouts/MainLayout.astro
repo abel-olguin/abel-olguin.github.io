@@ -27,6 +27,7 @@ const profilesData = profiles.map(item => ({
     <meta name="copyright" content="Copyright owner"/>
     <meta name="robots" content="follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body class="max-w-screen-md mx-auto px-4">
 <slot/>
@@ -87,6 +88,11 @@ const profilesData = profiles.map(item => ({
 </html>
 
 <style is:global>
+    @page {
+        size: auto;
+        margin: 0mm;
+    }
+
     * {
         font-family: Consolas, monaco, monospace;
         @apply text-neutral-500

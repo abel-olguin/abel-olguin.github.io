@@ -8,10 +8,10 @@ import Skills from "@/components/Skills.astro";
 import About from "@/components/About.astro";
 
 import {basics} from "@cv"
-const {name, label, summary} = basics
+const {name, label, seo} = basics
 ---
 
-<MainLayout title={`Portfolio ${name} - ${label}`} description={summary}>
+<MainLayout title={`Portfolio ${name} - ${label}`} description={seo}>
     <main class="flex flex-col gap-8">
         <Hero/>
         <About/>

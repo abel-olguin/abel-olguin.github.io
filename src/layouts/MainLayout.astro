@@ -1,5 +1,6 @@
 ---
 import {basics, skills} from "@cv"
+import {SEO} from "astro-seo"
 import {ICONS} from "../utils/icons";
 
 const {title, description} = Astro.props;
@@ -19,9 +20,34 @@ const profilesData = profiles.map(item => ({
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width"/>
     <meta name="generator" content={Astro.generator}/>
-    <title>{title}</title>
-    <meta property="og:title" content={title}/>
-    <meta name="description" content={description}>
+
+    <SEO
+            title={title}
+            description={description}
+            image={basics.image}
+            openGraph={{
+                basic: {
+                    title,
+                    type: "website",
+                    image: basics.image,
+                }
+            }}
+            github={{
+                creator: "@abel-olguin"
+            }}
+            extend={{
+                link: [{rel: "icon", href: "/favicon.ico"}],
+                meta: [
+                    {
+                        name: "twitter:image",
+                        content: basics.image,
+                    },
+                    {name: "twitter:title", content: title},
+                    {name: "twitter:description", content: description},
+                ],
+            }}
+    />
+
     <meta name="keywords" content={skills.map(item => item.name).join(', ')}/>
     <meta name="author" content={basics.name}>
     <meta name="copyright" content="Copyright owner"/>

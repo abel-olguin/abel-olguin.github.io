@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Abel Olguín Chávez",
-    "label": "Desarrollador WEB | Móvil | Creador de contenido",
+    "label": "Desarrollador Fullstack | Móvil | Creador de contenido",
     "image": "https://avatars.githubusercontent.com/u/8931845?v=4",
     "email": "abel.olguinchavez@gmail.com",
     "phone": "",
@@ -40,7 +40,7 @@
       "url": "",
       "startDate": "Marzo 2015",
       "endDate": "Actualmente",
-      "summary": "Como profesional freelance, he tenido el privilegio de colaborar con múltiples empresas, tanto grandes como pequeñas, siempre superando las expectativas de mis clientes. He aplicado mis habilidades en la selección de arquitecturas eficientes, gestión de aplicaciones, consultoría tecnológica, y desarrollo de software para proyectos diversos. He liderado equipos de desarrollo, brindado mentoría y consultoría, y gestionado la integración de diferentes módulos y tecnologías. ",
+      "summary": "Como freelance he desempeñado varios roles a lo largo de mis más de 10 años de experiencia, he trabajado como consultor, líder técnico, arquitecto de software, desarrollador móvil y desarrollador fullstack.\nDe igual forma he trabajado con una multitud de empresas y proyectos en el ambiente privado y gubernamental",
       "highlights": [
         "PHP",
         "Laravel",
@@ -62,27 +62,12 @@
       ]
     },
     {
-      "name": "B-process",
-      "position": "Desarrollador fullstack SR & Líder técnico",
-      "url": "",
-      "startDate": "Agosto 2023",
-      "endDate": "Marzo 2024",
-      "summary": "Fui responsable de la gestión de un equipo para asegurar el correcto desarrollo y cumplimiento de las metas en cada sprint. Desarrollé una aplicación gubernamental enfocada en la gestión de personas privadas de la libertad dentro de un centro de reclusión, así como otra aplicación gubernamental para la gestión de oficios y documentos legales que se turnan entre individuos a lo largo del tiempo hasta llegar a una resolución. También me encargué del mantenimiento de los módulos existentes. Entre mis logros, destaco el desarrollo y gestión de un equipo de desarrolladores con fechas de entrega ajustadas y el desarrollo de una aplicación completa en un tiempo considerablemente corto.",
-      "highlights": [
-        "Laravel",
-        "Angular",
-        "Git",
-        "Docker",
-        "MySql"
-      ]
-    },
-    {
       "name": "Ultrasist",
       "position": "Desarrollador fullstack SR",
       "url": "",
       "startDate": "Junio 2022",
       "endDate": "Enero 2023",
-      "summary": "He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la aplicación utilizada por BANOBRAS, además de realizar mantenimiento a los módulos existentes y generar nuevos módulos para una aplicación web. Entre mis logros, he mejorado la eficiencia del equipo en el desarrollo de la aplicación, optimizado en gran medida el uso de código boilerplate, y generado módulos altamente reutilizables.",
+      "summary": "Ayude al mantenimiento de la aplicación principal de BANOBRAS; una dependencia gubernamental. Entre mis logros destaco la reducción significativa del código del proyecto derivado de una mejor implementación del código en conjunto con patrones de diseño conocidos",
       "highlights": [
         "Laravel",
         "Angular",
@@ -96,7 +81,7 @@
       "url": "",
       "startDate": "Octubre 2019",
       "endDate": "Junio 2022",
-      "summary": "He gestionado, creado y mejorado la arquitectura de las aplicaciones usadas por las diversas ramas de la empresa, junto con la gestión de equipo y la generación de reportes de actividades. He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la empresa, y he desarrollado aplicaciones usando PHP, JavaScript y Dart. Entre mis logros, he logrado una reducción significativa en los costos debido a una mejor arquitectura, generación de aplicaciones replicables, reducción de tiempo en la implementación de soluciones y reducción de mantenimiento a las aplicaciones existentes. También he realizado mejoras significativas en la comunicación y eficiencia del equipo, así como en la implementación de nuevas tecnologías y estándares de desarrollo.",
+      "summary": "Trabajé en un par de ocasiones y por varios años con MVS. Entre mis logros destaco una reducción significativa de costos al implementar arquitecturas más eficientes y la innovación constante en las tecnologías que se usaban dentro de la empresa",
       "highlights": [
         "Wordpress",
         "JavaScript",
@@ -111,8 +96,8 @@
       "position": "Desarrollador backend SR",
       "url": "",
       "startDate": "Febrero 2019",
-      "endDate": "Diciembre 2021",
-      "summary": "He seleccionado arquitecturas eficientes para diversas aplicaciones, tanto privadas como gubernamentales. He gestionado diversas API's internas y externas, así como varias nubes, y he creado aplicaciones para diversas empresas usando PHP y Node JS. Entre mis logros, se destaca la arquitectura y desarrollo de una aplicación backend que conecta diversas nubes y las concentra en una sola, y la arquitectura y desarrollo de una aplicación backend autorreplicable a nivel nacional.",
+      "endDate": "Diciembre 2024",
+      "summary": "He trabajado con Ubeenet por multiples periodos de tiempo como consultor y desarrollador, en diversos proyectos que incluyen empresas privadas como del estado, Asimismo, he trabajado con una gran multitud de tecnologías, arquitecturas y lenguajes de programación",
       "highlights": [
         "Laravel",
         "Angular",
@@ -136,7 +121,7 @@
       "url": "",
       "startDate": "Julio 2017",
       "endDate": "Febrero 2018",
-      "summary": "He brindado consultoría y mentoría para el uso correcto de las tecnologías usadas en la aplicación web para SAGARPA, así como mantenimiento a los módulos existentes y generación de nuevos módulos de la aplicación. Entre mis logros, se destacan la mejoría significativa en el equipo de desarrollo debido a un mejor uso de las herramientas y la implementación de nuevas tecnologías y estándares de desarrollo.",
+      "summary": "Destaco que ayude en la mejoría significativa del equipo de desarrollo debido a un mejor uso de las herramientas y la implementación de nuevas tecnologías y estándares de desarrollo.",
       "highlights": [
         "Laravel",
         "JavaScript",
@@ -151,7 +136,7 @@
       "url": "",
       "startDate": "Julio 2017",
       "endDate": "Febrero 2018",
-      "summary": "He seleccionado arquitecturas eficientes para aplicaciones de diversos clientes, gestionando las aplicaciones de la agencia y brindando soporte continuo y solución de problemas críticos, asegurando que las aplicaciones se mantengan eficientes y efectivas. He coordinado la integración de diferentes módulos de software para crear soluciones holísticas y escalables.\nEntre mis logros, destaco la innovación en los procesos de desarrollo, implementación de nuevas tecnologías y estándares de desarrollo, además de la optimización de recursos que ha llevado a una significativa reducción de costos operativos. También he fomentado la colaboración entre equipos multidisciplinarios, mejorando la eficiencia del trabajo en conjunto.",
+      "summary": "Entre mis logros, destaco la innovación en los procesos de desarrollo, implementación de nuevas tecnologías y estándares de desarrollo, además de la optimización de recursos que ha llevado a una significativa reducción de costos operativos. También he fomentado la colaboración entre equipos multidisciplinarios, mejorando la eficiencia del trabajo en conjunto.",
       "highlights": [
         "Wordpress",
         "Laravel",
@@ -367,9 +352,23 @@
   ],
   "projects": [
     {
+      "name": "Mini curso Api Rest con Node, Express, TypeScript y TypeOrm",
+      "startDate": "2025-01",
+      "endDate": "",
+      "description": "Hice un curso de NodeJs con express, Typescript y TypeOrm, en este explico como crear una API Rest.",
+      "highlights": [
+        "Node",
+        "ExpressJs",
+        "TypeScript",
+        "TypeOrm",
+        "Zod"
+      ],
+      "url": "http://www.youtube.com/playlist?list=PL8GYrmS0JFOTpa2FT05mn3jRVjMjx7lCH"
+    },
+    {
       "name": "Curso Laravel 11 desde cero",
       "startDate": "2024-05",
-      "endDate": "",
+      "endDate": "2024-06",
       "description": "Serie de videos donde explico cómo hacer un blog usando Laravel",
       "highlights": [
         "Laravel",
@@ -381,7 +380,7 @@
     {
       "name": "Curso Laravel 11 + Livewire",
       "startDate": "2024-06",
-      "endDate": "",
+      "endDate": "2024-07",
       "description": "Serie de videos donde explico cómo integrar Livewire a un proyecto existente de Laravel",
       "highlights": [
         "Laravel",
@@ -393,7 +392,7 @@
     {
       "name": "Curso API Rest Laravel con TDD",
       "startDate": "2024-07",
-      "endDate": "",
+      "endDate": "2024-08",
       "description": "Curso donde explico cómo hacer una API Rest con laravel usando Test Driven Development",
       "highlights": [
         "Laravel"
@@ -403,7 +402,7 @@
     {
       "name": "Curso crear un tema de Wordpress desde cero",
       "startDate": "2024-08",
-      "endDate": "",
+      "endDate": "2025-01",
       "description": "Curso donde explico algunas funcionalidades de wordpress y cómo se podría crear un template desde cero",
       "highlights": [
         "Wordpress",

@@ -4,7 +4,7 @@ import {SEO} from "astro-seo"
 import {ICONS} from "../utils/icons";
 
 const {title, description} = Astro.props;
-const {profiles} = basics
+const {profiles, image, name} = basics
 
 const profilesData = profiles.map(item => ({
     title: item.network,
@@ -24,12 +24,11 @@ const profilesData = profiles.map(item => ({
     <SEO
             title={title}
             description={description}
-            image={basics.image}
             openGraph={{
                 basic: {
                     title,
                     type: "website",
-                    image: basics.image,
+                    image: image,
                 }
             }}
             github={{
@@ -40,7 +39,7 @@ const profilesData = profiles.map(item => ({
                 meta: [
                     {
                         name: "twitter:image",
-                        content: basics.image,
+                        content: image,
                     },
                     {name: "twitter:title", content: title},
                     {name: "twitter:description", content: description},
@@ -49,7 +48,7 @@ const profilesData = profiles.map(item => ({
     />
 
     <meta name="keywords" content={skills.map(item => item.name).join(', ')}/>
-    <meta name="author" content={basics.name}>
+    <meta name="author" content={name}>
     <meta name="copyright" content="Copyright owner"/>
     <meta name="robots" content="follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

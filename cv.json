@@ -352,6 +352,35 @@
   ],
   "projects": [
     {
+      "name": "Going up",
+      "startDate": "2025-06",
+      "endDate": "",
+      "description": "Desarrolle la red social weregoinup en conjunto con emprendeme",
+      "highlights": [
+        "Node",
+        "ExpressJs",
+        "NuxtJs",
+        "TypeScript",
+        "TypeOrm",
+        "Zod",
+        "Tailwind"
+      ],
+      "url": "https://weregoinup.com/"
+    },
+    {
+      "name": "Vivien",
+      "startDate": "2025-03",
+      "endDate": "",
+      "description": "Desarrolle la plataforma vivien en conjunto con emprendeme",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "AlpineJs",
+        "Tailwind"
+      ],
+      "url": "https://vivien.mx"
+    },
+    {
       "name": "Mini curso Api Rest con Node, Express, TypeScript y TypeOrm",
       "startDate": "2025-01",
       "endDate": "",

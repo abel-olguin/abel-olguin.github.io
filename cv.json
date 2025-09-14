@@ -146,8 +146,7 @@
       ]
     }
   ],
-  "volunteer": [
-  ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Universidad tres culturas",
@@ -157,8 +156,7 @@
       "startDate": "Agosto 2010",
       "endDate": "Agosto 2013",
       "score": "8.0",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "ICEMéxico",
@@ -168,172 +166,142 @@
       "startDate": "Febrero 2024",
       "endDate": "Julio 2024",
       "score": "10",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
-  "awards": [
-  ],
-  "certificates": [
-  ],
-  "publications": [
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "PHP",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Laravel",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Wordpress",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "TypeScript",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "NodeJs",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "ReactJs",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "React Native",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Angular",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Tailwind",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Bootstrap",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Python",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Django",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Java",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Spring boot",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Android",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Flutter",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Postgres",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Mongo",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "MySql",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Docker",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Kubernetes",
       "level": "Low",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "AWS",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Azure",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "GCP",
       "level": "Medium",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Git",
       "level": "Master",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "languages": [
@@ -346,11 +314,25 @@
       "fluency": "B2"
     }
   ],
-  "interests": [
-  ],
-  "references": [
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
+    {
+      "name": "Destaquí",
+      "startDate": "2025-09",
+      "endDate": "",
+      "description": "Desarrolle una plataforma para que las personas que tienen restaurantes o negocios y puedan promocionar/mostrar sus productos o platillos",
+      "highlights": [
+        "Node",
+        "ExpressJs",
+        "Astrojs",
+        "TypeScript",
+        "TypeOrm",
+        "Zod",
+        "Tailwind"
+      ],
+      "url": "https://destaqui.com/"
+    },
     {
       "name": "Going up",
       "startDate": "2025-06",
@@ -393,6 +375,22 @@
         "Zod"
       ],
       "url": "http://www.youtube.com/playlist?list=PL8GYrmS0JFOTpa2FT05mn3jRVjMjx7lCH"
+    },
+    {
+      "name": "Buenas promos",
+      "startDate": "2024-08",
+      "endDate": "",
+      "description": "Desarrolle un sitio de ofertas",
+      "highlights": [
+        "Node",
+        "ExpressJs",
+        "Astrojs",
+        "TypeScript",
+        "TypeOrm",
+        "Zod",
+        "Tailwind"
+      ],
+      "url": "https://buenaspromos.com/"
     },
     {
       "name": "Curso Laravel 11 desde cero",

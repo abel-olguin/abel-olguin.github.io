@@ -321,7 +321,7 @@
       "name": "Destaquí",
       "startDate": "2025-09",
       "endDate": "",
-      "description": "Desarrolle una plataforma para que las personas que tienen restaurantes o negocios y puedan promocionar/mostrar sus productos o platillos",
+      "description": "Desarrolle una plataforma para que las personas que tienen restaurantes o negocios puedan promocionar/mostrar sus productos o platillos",
       "highlights": [
         "Node",
         "ExpressJs",

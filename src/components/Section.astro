@@ -1,7 +1,15 @@
 ---
-const {title, classes} = Astro.props
+interface Props {
+    title: string;
+    titleTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+    classes?: string;
+}
+const { title, titleTag: Tag = "h2", classes } = Astro.props;
 ---
+
 <section class:list={[classes]} class="flex flex-col gap-2">
-    <h2 class="title">{title}</h2>
-    <slot/>
+    <Tag class={`title ${Tag === "h1" ? "text-4xl" : "text-2xl  "}`}
+        >{title}</Tag
+    >
+    <slot />
 </section>
